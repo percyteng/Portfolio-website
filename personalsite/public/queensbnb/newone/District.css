@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+    border: 0px;
+    margin:0px;
+
+}
+a{
+    font-size: 20px;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+ul {
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+h3{
+  font-size: 30px;
+  padding: 0px;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+  font-family:'Calibri Regular', 'Calibri';
+}
+h1{
+  font-size: 50px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+li {
+    float: left;
+    font-family:'Calibri Regular', 'Calibri';
+    font-size: 22px
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #33adff;
+    border-radius: 50%;
+}html, body {
+    height: 100%;
+}
+ul {
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+h3, h2{
+  font-size: 30px;
+  padding: 0px;
+  color: white;
+
+  font-family:'Calibri Regular', 'Calibri';
+}
+h1{
+  font-size: 50px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+li {
+    float: left;
+    font-family:'Calibri Regular', 'Calibri';
+    font-size: 22px
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #33adff;
+    border-radius: 15%;
+}
+
+html { 
+
+  font-family:'Calibri Regular', 'Calibri';
+  margin: auto; 
+
+  
+}
+b{
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+div {
+
+    padding: 10px;
+     
+}
+.Row
+{
+    display: table;
+
+    border-spacing: 10px; /*Optional*/
+}
+form{
+        display:inline-block
+}
+.Column
+{
+    padding: 50px;
+    display:inline-block
+
+}
+button{
+    background-color: #0080ff; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    font-family:'Calibri Regular', 'Calibri'; 
+    font-size: 16px; border: 0px; 
+    border-radius: 50px;
+    margin: 0px;
+}
+button:hover{
+    background-color: #0066cc;
+}
+button:active{
+    background-color:#ff3333;
+}
+button:focus{
+    background:#ff3333;
+}

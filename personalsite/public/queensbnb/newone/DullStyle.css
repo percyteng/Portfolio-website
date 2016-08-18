@@ -1,0 +1,158 @@
+html, body {
+    height: 100%;
+    border: 0px;
+    margin:0px;
+
+}
+ul {
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+h3{
+  font-size: 30px;
+  padding: 0px;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+  font-family:'Calibri Regular', 'Calibri';
+}
+h1{
+  font-size: 50px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+li {
+    float: left;
+    font-family:'Calibri Regular', 'Calibri';
+    font-size: 22px
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #33adff;
+    border-radius: 50%;
+}html, body {
+    height: 100%;
+}
+ul {
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+input{
+  text-align: center;
+  font-size:16px;
+}
+button{
+    background-color: #0080ff; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    font-family:'Calibri Regular', 'Calibri'; 
+    font-size: 16px; border: 0px; 
+    border-radius: 5px;
+    margin: 0px;
+}
+button:hover{
+    background-color: #0066cc;
+}
+button:active{
+    background-color:#ff3333;
+}
+button:focus{
+    background:#ff3333;
+}
+h3, h2{
+  font-size: 30px;
+  padding: 0px;
+  color: white;
+
+  font-family:'Calibri Regular', 'Calibri';
+}
+h1{
+  font-size: 50px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+li {
+    float: left;
+    font-family:'Calibri Regular', 'Calibri';
+    font-size: 22px
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #33adff;
+    border-radius: 15%;
+}
+
+html { 
+
+  font-family:'Calibri Regular', 'Calibri';
+
+  
+}
+b, label{
+    font-size: 20px;
+    color: white;
+}
+
+html {
+
+    margin: auto;                                         
+}
+body { 
+
+
+    vertical-align: middle;
+    text-align: center;
+}
+
+div {
+
+    padding: 10px;
+     
+}

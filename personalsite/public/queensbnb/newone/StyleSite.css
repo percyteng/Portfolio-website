@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+}
+ul {
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+h3{
+  font-size: 30px;
+  padding: 0px;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+  font-family:'Calibri Regular', 'Calibri';
+}
+h1{
+  font-size: 50px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+li {
+    float: left;
+    font-family:'Calibri Regular', 'Calibri';
+    font-size: 22px
+}
+
+li a {
+    display: block;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #33adff;
+    border-radius: 15%;
+}
+input{
+
+}
+
+input{
+  text-align: center;
+  font-size:20px;
+}
+html { 
+  background: url(images/u1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:'Calibri Regular', 'Calibri';
+
+  
+}
+
+html {
+
+    margin: auto;                                         
+}
+body { 
+
+
+    vertical-align: middle;
+    text-align: center;
+}
+
+div {
+
+	padding: 10px;
+     
+}
+
+.searchButton{
+  padding: 10px;
+}
+

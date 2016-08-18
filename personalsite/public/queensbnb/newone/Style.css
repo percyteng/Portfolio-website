@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+html { 
+  background: url(images/u1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    display: table;
+    margin: auto;
+}
+body { 
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div {
+
+	padding: 5px;
+     
+}
+
