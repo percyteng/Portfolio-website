@@ -37,7 +37,7 @@ header{
   padding-top: 1%;
   padding-bottom: 2%;
   position: fixed;
-  z-index: 1001;
+  z-index: 1002;
 }
 header a{
     opacity: 0.7;
@@ -422,8 +422,10 @@ padding: 10px; width: 74%; margin-right: 1.5%; border: 1px solid rgb(44,101,139)
     transition: all 0.25s ease-in-out;
   }
     .links{
+      position: relative;
       /*opacity: 0.7;*/
     padding-bottom: 2%;
+    z-index: 1001;
     /*position:absolute;*/
     /*right:0;*/
     /*margin-top:5%;*/
