@@ -93,7 +93,7 @@ header a{
   transition: background 0.5s ease;
 }
 #linkedin:hover{
-  background-image: url(images/linkedinBlue.svg);
+  background-image: url(images/linkedinGrey.png);
 }
 #resume{
   background-image: url(images/resume.png);
