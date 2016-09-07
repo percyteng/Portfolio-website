@@ -19,14 +19,18 @@ body {
   padding-bottom: 100px;
 }
 header{
-/*  background-color: #286090;*/
-   background-color: #000000;
-   opacity: 0.5;
+ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.8)); 
   width:100%;
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 5%;
   position: fixed;
   z-index: 1000;
+}
+header a{
+    opacity: 0.7;
 }
 #github{
 z-index: 1000;
