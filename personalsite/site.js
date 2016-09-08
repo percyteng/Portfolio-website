@@ -61,14 +61,14 @@ app.get('/getOnline',function(req,res){
      if(error){
           console.log(error);
         res.end("error");
-     }else{ 
+     }else{
          }
 });
 });
 //var clients = [];
 
 //io.sockets.on('connect', function(client) {
-  //  clients.push(client); 
+  //  clients.push(client);
 
 //    client.on('disconnect', function() {
 //      clients.splice(clients.indexOf(client), 1);
