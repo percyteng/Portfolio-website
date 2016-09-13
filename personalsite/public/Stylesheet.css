@@ -1,6 +1,8 @@
 
 video{
   width:100%;
+  background-attachment: fixed;
+  /*position: fixed;*/
 }
 body {
   overflow-x: hidden;
