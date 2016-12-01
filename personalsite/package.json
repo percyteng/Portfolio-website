@@ -4,6 +4,7 @@
   "description": "",
   "main": "changeColorScrolling.js",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "body-parser": "^1.15.2",
     "express": "^4.13.4",
     "nodemailer": "^2.6.4",

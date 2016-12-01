@@ -4,7 +4,7 @@
 	<title>Percy Teng Home Page</title>
 	<meta charset = "utf-8">
 	<link rel="shortcut icon" href="images/dance.JPG" type="image/x-icon" />
-	<link href='https://fonts.googleapis.com/css?family=Lato:100,900,300,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">	<link href='https://fonts.googleapis.com/css?family=Lato:100,900,300,400' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type = 'text/css'>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -39,7 +39,7 @@
 				</div>
 				<!-- </div>
 				<div id = "role"> -->
-				<div style = "text-align:center;">
+				<div style = "text-align:center;" class = "animated">
 					<p> Software Engineer and Dancer</p>
 				</div>
 
@@ -110,7 +110,7 @@
 
 	</div>
 	<div id = "sectionTwo">
-		<h1> Experience </h1>
+		<h1 class = "animated pulse infinite"> Experience </h1>
 		<div class = "work">
 			<b> WORK </b> <br>
 			<hr>
@@ -185,7 +185,7 @@
 		</div>
 	</div>
 	<div id = "sectionThree">
-		<h1> Projects </h1>
+		<h1 class = "animated pulse infinite"> Projects </h1>
 		<div class = "work">
 			<hr>
 			<div class = "job">
@@ -282,6 +282,25 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<hr class = "insideHRproject">
+			<div class = "job">
+				<div class = "leftSide" id = "projects">
+					<img src="images/Dot.png" class="img-circle" style = "border-width: 0; background-color: transparent;" alt="Zang" >
+				</div>
+				<div class = "rightSide">
+					<b class= "jobtitle" style = "color:#E5E4E2;">Dot</b>
+					<ul style = "color:#E5E4E2;">
+						<li>Dot is a light-weight web application that focuses on creating an organized meeting environment where the direction of the meeting is defined by a clearly set objective and a timer that keeps track of meeting progress</li>
+						<li>Dot achieved a google-doc-like functionality to deliver and synchronize notes/messages on screen for participants of the meeting in real time</li>
+						<li>Technology involved: React.js, Node.js Socket.io, MongoDB</li>
+					</ul>
+				</div>
+				<div class = "buttonGroup">
+					<form action="http://percyteng.me:4000" target="_blank">
+						<button class="btn btn-warning">Link to the website</button>
+					</form>
 				</div>
 			</div>
 			<hr class = "insideHRproject">
@@ -419,7 +438,7 @@
 					<img src="images/profile.jpg" class="img-circle" alt="profile picture" id = "profilePic">
 				</div>
 				<div id = "emailContainer">
-					<h1>Email me</h1>
+					<h1 class = "animated pulse infinite">Email me</h1>
 				</div>
 				<form action = "/send" method = "POST" id = "emailForm" onsubmit = "return f(this);">
 					<div class = "innerInput">
