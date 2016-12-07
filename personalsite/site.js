@@ -48,7 +48,8 @@ app.post('/send',function(req,res){
 });
 });
 
-app.get('/getOnline',function(req,res){
+app.get('/getOnline',function(req,res,next){
+  console.log('activated')
   var from = req.body.from;
     var mailOptions={
       from: 'percytsy@gmail.com',
@@ -62,8 +63,9 @@ app.get('/getOnline',function(req,res){
           console.log(error);
         res.end("error");
      }else{
-         }
-});
+       res.sendStatus(200)
+      }
+    });
 });
 //var clients = [];
 

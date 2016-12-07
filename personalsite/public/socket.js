@@ -150,24 +150,25 @@ if($(window).width() > 765) {
 								$('#messages').append($('<li style = "background-color:#D4D4D4">').text(msg));
 							}
 							else{
-								$('#messages').append($('<li>').text(msg));
-							}
-							$("#content").scrollTop($("#content")[0].scrollHeight);
-						});
-
-							$('#online').submit(function (e) {
-							        e.preventDefault();
-							        var fd = new FormData($(this)[0]);
-							        $.ajax({
-							            url: '/getOnline',
-							            processData: false,
-							            contentType: false,
-							            type: 'GET',
-							            success: function(data){
-							                console.log(data);
-							            }
-							        });
+									$('#messages').append($('<li>').text(msg));
+								}
+								$("#content").scrollTop($("#content")[0].scrollHeight);
 							});
+
+							// $('#online').submit(function (e) {
+							// 			console.log('hola?')
+							//         e.preventDefault();
+							//         var fd = new FormData($(this)[0]);
+							//         $.ajax({
+							//             url: '/getOnline',
+							//             processData: false,
+							//             contentType: false,
+							//             type: 'GET',
+							//             success: function(data){
+							//                 console.log(data);
+							//             }
+							//         });
+							// });
 $(document).ready(function(){
 		  // Add smooth scrolling to all links
 		  $("a").on('click', function(event) {
@@ -216,28 +217,37 @@ $(function() {
     }
 	});
   enter.on('click', function() {
+		$.ajax({
+				url: '/getOnline',
+				processData: false,
+				contentType: false,
+				type: 'GET',
+				success: function(data){
+						console.log(data);
+				}
+		});
     if (nameField.val() == ""){
-	alert("Please enter your name for chatting");
+			alert("Please enter your name for chatting");
     	return false;
     }
     else{
-    page1.animate({
-      opacity: 0
-    }, 100, function() {
-      page1.css("display", "none");
-      nameDisplay.html("Hello, " + nameField.val() + " :)");
-      page2.css("display", "block");
-      page2.animate({
-        opacity: .7,
-      }, 500);
-      realTimeInput .animate({
-        opacity: .7,
-      }, 500);
-      realTimeButton .animate({
-        opacity: 1,
-      }, 500);
-    });
-    return true;
+	    page1.animate({
+	      opacity: 0
+	    }, 100, function() {
+	      page1.css("display", "none");
+	      nameDisplay.html("Hello, " + nameField.val() + " :)");
+	      page2.css("display", "block");
+	      page2.animate({
+	        opacity: .7,
+	      }, 500);
+	      realTimeInput .animate({
+	        opacity: .7,
+	      }, 500);
+	      realTimeButton .animate({
+	        opacity: 1,
+	      }, 500);
+	    });
+	    return true;
     }
   });
 
