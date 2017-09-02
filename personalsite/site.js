@@ -29,7 +29,7 @@ app.get('/', function(req, res){
   res.sendFile(__dirname + '/public/index.html');
 });
 
-app.post('/send',function(req,res){
+app.post('/email',function(req,res){
     var from = req.body.from;
     var mailOptions={
       from: 'percytsy@gmail.com',
